@@ -1,0 +1,54 @@
+<mod>
+    <info title="Nick" author="IBleedTheFifth" version="1.0"/>
+    <ghost>
+        <basic id="nick" element1="earth" type="ghost" startUnlocked="true"/>
+        <text>
+            <name>
+                <lang id="en">Nick</lang>
+            </name>
+            <description>
+                <lang id="en">Has a rocky smile that will leeve you breathless</lang>
+            </description>
+        </text>
+
+        <stats>
+            <hp growth="10"/>
+            <strength growth="10"/>
+            <stamina growth="10"/>
+            <magic growth="10"/>
+            <will growth="10"/>
+            <speed growth="10"/>
+        </stats>
+
+        <abilities>
+            <starting>
+                <move id="jelly1"/>
+                <move id="jelly2"/>
+                <move id="jelly3"/>
+                <move id="yaha"/>
+            </starting>
+            <bonus>
+                <move id="jelly4"/>
+                <move id="jelly5"/>
+                <move id="jelly6"/>
+            </bonus>
+        </abilities>
+        <animset shouldFloat="true">
+            <icon src="nick_icon"/>
+            <idle speed="0.16">
+                <sprite src="nick_standing_1"/>
+            </idle>
+            <attacking speed="0.16">
+                <sprite src="nick_attacking_1"/>
+                <sprite src="nick_attacking_2"/>
+                <sprite src="nick_attacking_3"/>
+            </attacking>
+            <hurt speed="0.25">
+                <sprite src="nick_hurt_1"/>
+                <sprite src="nick_hurt_2"/>
+                <sprite src="nick_hurt_3"/>
+                <sprite src="nick_hurt_4"/>
+            </hurt>
+        </animset>
+    </ghost>
+</mod>    
