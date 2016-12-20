@@ -1,7 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
 <mod>
     <info title="Nick" author="IBleedTheFifth" version="1.0"/>
     <ghost>
-        <basic id="nick" element1="earth" type="ghost" startUnlocked="true"/>
+        <basic id="nick" element1="earth" element2="" type="ghost" startUnlocked="true"/>
         <text>
             <name>
                 <lang id="en">Nick</lang>
@@ -51,4 +52,4 @@
             </hurt>
         </animset>
     </ghost>
-</mod>    
+</mod>

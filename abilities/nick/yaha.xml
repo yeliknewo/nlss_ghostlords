@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-16"?>
+<mod>
+    <info title="Yaha" author="IBleedTheFifth" version="1.0"/>
+    <ability id="yaha">
+        <text>
+            <name>
+                <lang id="en">Yaha</lang>
+            </name>
+        </text>
+        <damage element="utility" powerTarget="50" powerSource="0" isPhysical="true" variance="0.4"/>
+        <energy cost="3" damage="0"/>
+        <crit chance="0.1" multiplier="2"/>
+        <anim id="yaha" duration="1.3" impact="0.22">
+            <charanim   time="0"        playType="0"    animType="2"    target="0"/>
+            <movement   time="0.1"      duration="0.14"     target="0"      anchor="0"  offsetX="30"    offsetY="0"     ease="2"/>
+            <movement   time="0.4"      duration="0.14"     target="0"      anchor="0"  offsetX="0"     offsetY="0"     ease="2"/>
+            <movement   time="0.24"     duration="0.12"     target="1"      anchor="1"  offsetX="-15"   offsetY="0"     ease="2"/>
+            <movement   time="1"        duration="0.1"      target="1"      anchor="1"  offsetX="0"     offsetY="0"     ease="2"/>
+            <effect     time="0.22"     duration="-1"   id="hitBig"         anchor="1"  offsetX="0"     offsetY="28"/>
+            <sfx time="0.22" id="yaha.wav"/>
+        </anim>
+    </ability>
+</mod>
