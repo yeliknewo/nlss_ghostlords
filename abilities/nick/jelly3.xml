@@ -16,7 +16,7 @@
             <movement   time="0.24"     duration="0.12"     target="1"      anchor="1"  offsetX="-15"   offsetY="0"     ease="2"/>
             <movement   time="1"        duration="0.1"      target="1"      anchor="1"  offsetX="0"     offsetY="0"     ease="2"/>
             <effect     time="0.22"     duration="-1"   id="hitBig"         anchor="1"  offsetX="0"     offsetY="28"/>
-            <sfx time="0.22" id="jelly3.wav"/>
+            <sfx time="0.22" id="lazy.wav"/>
         </anim>
     </ability>
 </mod>

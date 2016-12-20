@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-16"?>
+<mod>
+    <info title="Ryan" author="IBleedTheFifth" version="1.0"/>
+    <ghost>
+        <basic id="ryan" element1="organic" element2="" type="ghost" startUnlocked="true"/>
+        <text>
+            <name>
+                <lang id="en">Ryan</lang>
+            </name>
+            <description>
+                <lang id="en">Ryan Description</lang>
+            </description>
+        </text>
+
+        <stats>
+            <hp growth="10"/>
+            <strength growth="10"/>
+            <stamina growth="10"/>
+            <magic growth="10"/>
+            <will growth="10"/>
+            <speed growth="10"/>
+        </stats>
+
+        <abilities>
+            <starting>
+                <move id="ryan1"/>
+                <move id="ryan2"/>
+                <move id="ryan3"/>
+                <move id="ryan4"/>
+            </starting>
+            <bonus>
+                <move id="ryan5"/>
+                <move id="ryan6"/>
+                <move id="ryan7"/>
+                <move id="ryan8"/>
+            </bonus>
+        </abilities>
+        <animset shouldFloat="true">
+            <icon src="ryan_icon"/>
+            <idle speed="0.16">
+                <sprite src="ryan_standing_1"/>
+            </idle>
+            <attacking speed="0.16">
+                <sprite src="ryan_attacking_1"/>
+                <sprite src="ryan_attacking_2"/>
+                <sprite src="ryan_attacking_3"/>
+            </attacking>
+            <hurt speed="0.25">
+                <sprite src="ryan_hurt_1"/>
+                <sprite src="ryan_hurt_2"/>
+                <sprite src="ryan_hurt_3"/>
+                <sprite src="ryan_hurt_4"/>
+            </hurt>
+        </animset>
+    </ghost>
+</mod>

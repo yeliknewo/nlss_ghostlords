@@ -29,9 +29,10 @@
                 <move id="yaha"/>
             </starting>
             <bonus>
-                <move id="jelly4"/>
                 <move id="jelly5"/>
                 <move id="jelly6"/>
+                <move id="jelly7"/>
+                <move id="jelly8"/>
             </bonus>
         </abilities>
         <animset shouldFloat="true">

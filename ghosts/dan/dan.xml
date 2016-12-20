@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-16"?>
+<mod>
+    <info title="Dan" author="IBleedTheFifth" version="1.0"/>
+    <ghost>
+        <basic id="dan" element1="organic" element2="" type="ghost" startUnlocked="true"/>
+        <text>
+            <name>
+                <lang id="en">Dan</lang>
+            </name>
+            <description>
+                <lang id="en">Dan Description</lang>
+            </description>
+        </text>
+
+        <stats>
+            <hp growth="10"/>
+            <strength growth="10"/>
+            <stamina growth="10"/>
+            <magic growth="10"/>
+            <will growth="10"/>
+            <speed growth="10"/>
+        </stats>
+
+        <abilities>
+            <starting>
+                <move id="dan1"/>
+                <move id="dan2"/>
+                <move id="dan3"/>
+                <move id="dan4"/>
+            </starting>
+            <bonus>
+                <move id="dan5"/>
+                <move id="dan6"/>
+                <move id="dan7"/>
+                <move id="dan8"/>
+            </bonus>
+        </abilities>
+        <animset shouldFloat="true">
+            <icon src="dan_icon"/>
+            <idle speed="0.16">
+                <sprite src="dan_standing_1"/>
+            </idle>
+            <attacking speed="0.16">
+                <sprite src="dan_attacking_1"/>
+                <sprite src="dan_attacking_2"/>
+                <sprite src="dan_attacking_3"/>
+            </attacking>
+            <hurt speed="0.25">
+                <sprite src="dan_hurt_1"/>
+                <sprite src="dan_hurt_2"/>
+                <sprite src="dan_hurt_3"/>
+                <sprite src="dan_hurt_4"/>
+            </hurt>
+        </animset>
+    </ghost>
+</mod>

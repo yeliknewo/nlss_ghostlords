@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-16"?>
+<mod>
+    <info title="Josh" author="IBleedTheFifth" version="1.0"/>
+    <ghost>
+        <basic id="josh" element1="organic" element2="" type="ghost" startUnlocked="true"/>
+        <text>
+            <name>
+                <lang id="en">Josh</lang>
+            </name>
+            <description>
+                <lang id="en">Josh Description</lang>
+            </description>
+        </text>
+
+        <stats>
+            <hp growth="10"/>
+            <strength growth="10"/>
+            <stamina growth="10"/>
+            <magic growth="10"/>
+            <will growth="10"/>
+            <speed growth="10"/>
+        </stats>
+
+        <abilities>
+            <starting>
+                <move id="josh1"/>
+                <move id="josh2"/>
+                <move id="josh3"/>
+                <move id="josh4"/>
+            </starting>
+            <bonus>
+                <move id="josh5"/>
+                <move id="josh6"/>
+                <move id="josh7"/>
+                <move id="josh8"/>
+            </bonus>
+        </abilities>
+        <animset shouldFloat="true">
+            <icon src="josh_icon"/>
+            <idle speed="0.16">
+                <sprite src="josh_standing_1"/>
+            </idle>
+            <attacking speed="0.16">
+                <sprite src="josh_attacking_1"/>
+                <sprite src="josh_attacking_2"/>
+                <sprite src="josh_attacking_3"/>
+            </attacking>
+            <hurt speed="0.25">
+                <sprite src="josh_hurt_1"/>
+                <sprite src="josh_hurt_2"/>
+                <sprite src="josh_hurt_3"/>
+                <sprite src="josh_hurt_4"/>
+            </hurt>
+        </animset>
+    </ghost>
+</mod>

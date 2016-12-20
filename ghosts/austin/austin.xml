@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-16"?>
+<mod>
+    <info title="Austin" author="IBleedTheFifth" version="1.0"/>
+    <ghost>
+        <basic id="austin" element1="organic" element2="" type="ghost" startUnlocked="true"/>
+        <text>
+            <name>
+                <lang id="en">Austin</lang>
+            </name>
+            <description>
+                <lang id="en">Austin Description</lang>
+            </description>
+        </text>
+
+        <stats>
+            <hp growth="12"/>
+            <strength growth="12"/>
+            <stamina growth="12"/>
+            <magic growth="12"/>
+            <will growth="12"/>
+            <speed growth="12"/>
+        </stats>
+
+        <abilities>
+            <starting>
+                <move id="austin1"/>
+                <move id="austin2"/>
+                <move id="austin3"/>
+                <move id="austin4"/>
+            </starting>
+            <bonus>
+                <move id="austin5"/>
+                <move id="austin6"/>
+                <move id="austin7"/>
+                <move id="austin8"/>
+            </bonus>
+        </abilities>
+        <animset shouldFloat="true">
+            <icon src="austin_icon"/>
+            <idle speed="0.16">
+                <sprite src="austin_standing_1"/>
+            </idle>
+            <attacking speed="0.16">
+                <sprite src="austin_attacking_1"/>
+                <sprite src="austin_attacking_2"/>
+                <sprite src="austin_attacking_3"/>
+            </attacking>
+            <hurt speed="0.25">
+                <sprite src="austin_hurt_1"/>
+                <sprite src="austin_hurt_2"/>
+                <sprite src="austin_hurt_3"/>
+                <sprite src="austin_hurt_4"/>
+            </hurt>
+        </animset>
+    </ghost>
+</mod>
