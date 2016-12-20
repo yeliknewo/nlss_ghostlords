@@ -23,8 +23,8 @@
 
         <abilities>
             <starting>
-                <move id="austin1"/>
-                <move id="austin2"/>
+                <move id="rururu"/>
+                <move id="coin"/>
                 <move id="austin3"/>
                 <move id="austin4"/>
             </starting>
